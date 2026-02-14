@@ -1,0 +1,58 @@
+{
+  "protagonists": [
+    {
+      "id": "char_001",
+      "name": "主角姓名",
+      "role": "主角",
+      "age": 25,
+      "origin": "出生地",
+      "personality": {
+        "traits": ["特质1", "特质2", "特质3"],
+        "flaws": ["缺陷1", "缺陷2"]
+      },
+      "background": "背景故事",
+      "abilities": ["能力1", "能力2"],
+      "equipment": ["装备"],
+      "relationships": [
+        {
+          "target_id": "char_002",
+          "relation": "关系类型",
+          "development": "关系发展",
+          "key_moments": [
+            {"chapter": 1, "event": "关键时刻"}
+          ]
+        }
+      ],
+      "character_arc": {
+        "start_state": "起始状态",
+        "end_state": "目标状态",
+        "current_state": "当前状态",
+        "key_milestones": [
+          {"chapter": 1, "milestone": "里程碑事件"}
+        ]
+      },
+      "appearances": {
+        "first_chapter": 1,
+        "chapters": [1]
+      }
+    }
+  ],
+  "antagonists": [
+    {
+      "id": "char_050",
+      "name": "反派姓名",
+      "role": "反派",
+      "motivation": "动机",
+      "methods": ["手段"],
+      "background": "背景"
+    }
+  ],
+  "supporting": [
+    {
+      "id": "char_100",
+      "name": "配角姓名",
+      "role": "配角类型",
+      "function": "在故事中的功能"
+    }
+  ]
+}

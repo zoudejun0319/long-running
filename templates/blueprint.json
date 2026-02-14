@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "title": "小说标题",
+    "genre": "科幻/奇幻/通用",
+    "sub_genre": "子类型",
+    "target_words": 800000,
+    "target_chapters": 200,
+    "volumes": 4,
+    "created_at": "",
+    "themes": ["主题1", "主题2", "主题3"]
+  },
+  "status": {
+    "completed_chapters": 0,
+    "total_words": 0,
+    "current_volume": 1,
+    "current_arc": 1,
+    "last_updated": "",
+    "estimated_completion": ""
+  },
+  "volumes": [
+    {
+      "id": 1,
+      "name": "第一卷：卷名",
+      "chapters": [1, 50],
+      "word_target": 200000,
+      "summary": "本卷概要",
+      "themes": ["主题"]
+    }
+  ],
+  "arcs": [
+    {
+      "id": 1,
+      "volume_id": 1,
+      "name": "篇章名称",
+      "chapters": [1, 10],
+      "status": "pending"
+    }
+  ],
+  "writing_standards": {
+    "min_words_per_chapter": 2500,
+    "max_words_per_chapter": 5000,
+    "pov_style": "第三人称限制视角",
+    "tone": "风格描述",
+    "required_elements": ["对话", "场景描写", "心理活动", "动作"]
+  }
+}

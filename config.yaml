@@ -1,0 +1,105 @@
+# 长篇小说自动创作系统配置文件
+# =========================================
+
+# API 配置
+# -----------------------------------------
+# 方式1: 在此文件中直接设置 api_key (不推荐，有安全风险)
+# 方式2: 设置环境变量 (推荐)
+#   - Anthropic: export ANTHROPIC_API_KEY=your_key
+#   - OpenAI: export OPENAI_API_KEY=your_key
+#   - 智谱AI: export ZHIPU_API_KEY=your_key
+
+api:
+  # 是否启用真实API调用 (设为true时必须提供api_key或环境变量)
+  enabled: true
+
+  # API提供商: anthropic / openai / zhipu (或 glm)
+  provider: zhipu
+
+  # API密钥 (建议使用环境变量，不要在此填写)
+  api_key: e2264b4bbfe84b81844e172de278c3d6.IfqQtSmeEKoznX0P
+
+  # 模型选择
+  # Anthropic: claude-sonnet-4-20250514, claude-opus-4-5-20251101
+  # OpenAI: gpt-4-turbo-preview, gpt-4o
+  # 智谱AI: glm-4-flash, glm-4, glm-4-plus, glm-4-long
+  model: glm-4.7
+
+  # 生成参数
+  max_tokens: 4096
+  temperature: 0.7
+
+  # 重试设置
+  retry_attempts: 3
+  retry_delay: 5  # 秒
+
+  # API地址
+  # GLM Coding Pro: https://open.bigmodel.cn/api/coding/paas/v4
+  # 标准智谱AI: https://open.bigmodel.cn/api/paas/v4/
+  # OpenAI: https://api.openai.com/v1
+  base_url: https://open.bigmodel.cn/api/coding/paas/v4
+
+# 项目设置
+# -----------------------------------------
+project:
+  default_location: ./novels
+  auto_git_init: true
+  encoding: utf-8
+
+# 写作设置
+# -----------------------------------------
+writing:
+  chapter_min_words: 2500
+  chapter_max_words: 5000
+  auto_review: true
+  auto_commit: true
+  backup_enabled: true
+  backup_interval: 10  # 每多少章备份一次
+
+  # 【新增】增强质量控制选项
+  use_ai_review: true           # 是否使用AI深度审查
+  use_deep_consistency_check: true  # 是否启用跨章节一致性检查
+  max_revisions: 3              # 最大修订次数
+  ai_review_temperature: 0.3    # AI审查的温度（越低越严格）
+
+# 审查设置
+# -----------------------------------------
+review:
+  consistency_check: true
+  word_count_tolerance: 0.1  # 10% 容差
+  auto_fix_minor_issues: true
+
+  # 【新增】检查点设置
+  checkpoint:
+    per_chapter: true      # 每章检查
+    minor_check_interval: 10   # 每10章小检查
+    major_check_interval: 50   # 每50章大检查
+
+  # 【新增】问题严重度阈值
+  # 低于此分数的需要修订（1-10分制）
+  min_score_threshold: 7
+
+# 【新增】记忆库设置
+# -----------------------------------------
+memory:
+  enabled: true
+  # 伏笔超期警告阈值（章节数）
+  foreshadow_overdue_warning: 30
+  foreshadow_overdue_critical: 50
+  # 人物状态更新提醒（章节数）
+  character_state_reminder: 20
+
+# 导出设置
+# -----------------------------------------
+export:
+  default_format: txt
+  include_metadata: true
+  chapter_separator: "\n\n***\n\n"
+
+# 日志设置
+# -----------------------------------------
+logging:
+  level: INFO
+  file: novel_manager.log
+  max_size_mb: 10
+  backup_count: 5

@@ -1,0 +1,66 @@
+{
+  "tech_system": {
+    "tech_level": "科技水平时代",
+    "key_technologies": [
+      {
+        "name": "技术名称",
+        "description": "技术描述",
+        "limitations": ["限制1", "限制2"],
+        "impact_on_story": "对故事的影响"
+      }
+    ],
+    "tech_rules": [
+      "规则1：描述",
+      "规则2：描述"
+    ]
+  },
+  "magic_system": {
+    "magic_type": "魔法类型",
+    "power_source": "力量来源",
+    "tiers": [
+      {"level": 1, "name": "等级名", "capabilities": ["能力"]}
+    ],
+    "costs_and_limits": [
+      "代价/限制1",
+      "代价/限制2"
+    ]
+  },
+  "factions": [
+    {
+      "id": "faction_001",
+      "name": "势力名称",
+      "type": "政府/商业/宗教/军事/其他",
+      "philosophy": "核心理念",
+      "territory": ["领土1", "领土2"],
+      "key_figures": ["char_001"],
+      "relations": {
+        "faction_002": "敌对/友好/中立/紧张"
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_001",
+      "name": "地点名称",
+      "type": "城市/星球/地区/建筑",
+      "description": "描述",
+      "significance": "故事意义",
+      "first_appearance": 1
+    }
+  ],
+  "timeline": [
+    {
+      "year": 2150,
+      "event": "重大事件",
+      "significance": "对世界的影响"
+    }
+  ],
+  "terminology": [
+    {
+      "term": "术语",
+      "definition": "定义",
+      "first_appearance": 1,
+      "usage_notes": "使用说明"
+    }
+  ]
+}

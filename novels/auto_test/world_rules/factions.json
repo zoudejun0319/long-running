@@ -1,0 +1,36 @@
+{
+  "factions": [
+    {
+      "id": "faction_001",
+      "name": "数据守护者",
+      "philosophy": "保护数据安全和隐私，抵制AI滥用。",
+      "territory": [
+        "网络空间、数据存储中心"
+      ],
+      "relations": {
+        "alliance": [
+          "自由黑客组织"
+        ],
+        "enemy": [
+          "数据巨头公司"
+        ]
+      }
+    },
+    {
+      "id": "faction_002",
+      "name": "数据巨头",
+      "philosophy": "最大化数据利用价值，推动AI技术发展。",
+      "territory": [
+        "数据中心、AI实验室"
+      ],
+      "relations": {
+        "alliance": [
+          "AI研究机构"
+        ],
+        "enemy": [
+          "数据守护者、黑客组织"
+        ]
+      }
+    }
+  ]
+}

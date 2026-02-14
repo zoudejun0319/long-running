@@ -1,0 +1,139 @@
+{
+  "checks": [
+    {
+      "id": "word_count",
+      "name": "字数检查",
+      "description": "2500-5000字",
+      "required": true
+    },
+    {
+      "id": "pov_consistency",
+      "name": "视角一致性",
+      "description": "POV无越界",
+      "required": true
+    },
+    {
+      "id": "character_consistency",
+      "name": "人物一致性",
+      "description": "行为符合设定",
+      "required": true
+    },
+    {
+      "id": "world_rules",
+      "name": "世界规则",
+      "description": "遵守设定",
+      "required": true
+    },
+    {
+      "id": "foreshadowing",
+      "name": "伏笔处理",
+      "description": "正确埋设/回收",
+      "required": false
+    },
+    {
+      "id": "plot_coherence",
+      "name": "剧情连贯",
+      "description": "逻辑连贯",
+      "required": true
+    }
+  ],
+  "chapter_results": [
+    {
+      "chapter": 1,
+      "timestamp": "2026-02-14 15:20:23",
+      "overall_passes": true,
+      "checks": {
+        "word_count": {
+          "passes": true,
+          "actual": 4673,
+          "min": 2500,
+          "max": 5000,
+          "notes": "",
+          "severity": null
+        },
+        "pov_consistency": {
+          "passes": true,
+          "notes": ""
+        },
+        "character_consistency": {
+          "passes": true,
+          "notes": ""
+        },
+        "world_rules": {
+          "passes": true,
+          "notes": ""
+        },
+        "foreshadowing": {
+          "passes": true,
+          "notes": "伏笔'主角家族中隐藏的秘密与神秘传承'可能未埋设;"
+        },
+        "timeline": {
+          "passes": true,
+          "notes": ""
+        },
+        "plot_coherence": {
+          "passes": true,
+          "notes": ""
+        },
+        "writing_quality": {
+          "passes": true,
+          "notes": ""
+        }
+      },
+      "issues": [],
+      "summary": "质量检查通过 [OK]"
+    },
+    {
+      "chapter": 2,
+      "timestamp": "2026-02-14 15:22:53",
+      "overall_passes": false,
+      "checks": {
+        "word_count": {
+          "passes": false,
+          "actual": 1805,
+          "min": 2500,
+          "max": 5000,
+          "notes": "字数不足: 1805 < 2500",
+          "severity": "warning"
+        },
+        "pov_consistency": {
+          "passes": true,
+          "notes": ""
+        },
+        "character_consistency": {
+          "passes": true,
+          "notes": ""
+        },
+        "world_rules": {
+          "passes": true,
+          "notes": ""
+        },
+        "foreshadowing": {
+          "passes": true,
+          "notes": "伏笔'主角身上的特殊印记的真正含义'可能未埋设;"
+        },
+        "timeline": {
+          "passes": true,
+          "notes": ""
+        },
+        "plot_coherence": {
+          "passes": true,
+          "notes": ""
+        },
+        "writing_quality": {
+          "passes": true,
+          "notes": "开篇可能过于简短"
+        }
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "check": "word_count",
+          "description": "字数不足: 1805 < 2500",
+          "suggestion": "调整章节字数"
+        }
+      ],
+      "summary": "发现 1 个问题"
+    }
+  ]
+}

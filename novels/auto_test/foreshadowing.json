@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "id": "f001",
+      "description": "主角家族中隐藏的秘密与神秘传承",
+      "type": "major",
+      "hint": "在第一章中，主角的父亲偶然提到家族的古老仪式，但未详细说明。",
+      "plant_chapter": 1,
+      "resolve_chapter": 30,
+      "status": "pending"
+    },
+    {
+      "id": "f002",
+      "description": "主角身上的特殊印记的真正含义",
+      "type": "major",
+      "hint": "第二章中，主角在意外事件中发现了身上的特殊印记，并引起了其他角色的注意。",
+      "plant_chapter": 2,
+      "resolve_chapter": 22,
+      "status": "pending"
+    },
+    {
+      "id": "f003",
+      "description": "反派角色背后隐藏的强大势力",
+      "type": "major",
+      "hint": "第五章中，反派角色展示出超乎常人的能力，暗示背后有强大的势力支持。",
+      "plant_chapter": 5,
+      "resolve_chapter": 28,
+      "status": "pending"
+    },
+    {
+      "id": "f004",
+      "description": "主角与一位神秘女性的关系",
+      "type": "major",
+      "hint": "第八章中，主角在旅途中邂逅了一位神秘女性，两人之间有着微妙的互动。",
+      "plant_chapter": 8,
+      "resolve_chapter": 15,
+      "status": "pending"
+    },
+    {
+      "id": "f005",
+      "description": "世界平衡的威胁",
+      "type": "major",
+      "hint": "在第十二章中，主角发现了一些关于世界平衡的异常迹象。",
+      "plant_chapter": 12,
+      "resolve_chapter": 30,
+      "status": "pending"
+    },
+    {
+      "id": "f006",
+      "description": "一本古老的魔法书失踪之谜",
+      "type": "minor",
+      "hint": "在第十三章中，主角在一个废弃的图书馆发现了这本魔法书，但很快又失踪了。",
+      "plant_chapter": 13,
+      "resolve_chapter": 25,
+      "status": "pending"
+    },
+    {
+      "id": "f007",
+      "description": "一位神秘旅者的目的",
+      "type": "minor",
+      "hint": "在第16章中，一位神秘旅者与主角相遇，留下了一些奇怪的线索。",
+      "plant_chapter": 16,
+      "resolve_chapter": 27,
+      "status": "pending"
+    },
+    {
+      "id": "f008",
+      "description": "主角过去的阴影",
+      "type": "major",
+      "hint": "在第20章中，主角通过一些线索发现了自己过去的秘密。",
+      "plant_chapter": 20,
+      "resolve_chapter": 30,
+      "status": "pending"
+    },
+    {
+      "id": "f009",
+      "description": "世界各地的神秘事件关联",
+      "type": "major",
+      "hint": "在第24章中，主角开始注意到世界各地发生的神秘事件似乎有着某种联系。",
+      "plant_chapter": 24,
+      "resolve_chapter": 30,
+      "status": "pending"
+    }
+  ]
+}

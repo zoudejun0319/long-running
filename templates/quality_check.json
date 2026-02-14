@@ -1,0 +1,49 @@
+{
+  "global_status": {
+    "total_issues": 0,
+    "critical_issues": 0,
+    "last_full_review": null
+  },
+  "chapter_reviews": [
+    {
+      "chapter": 1,
+      "status": "pending",
+      "checks": {
+        "word_count": {
+          "target": 3000,
+          "actual": 0,
+          "pass": null,
+          "notes": ""
+        },
+        "pov_consistency": {
+          "pass": null,
+          "notes": ""
+        },
+        "character_voice": {
+          "pass": null,
+          "notes": ""
+        },
+        "timeline_check": {
+          "pass": null,
+          "notes": ""
+        },
+        "world_rules_check": {
+          "pass": null,
+          "notes": ""
+        },
+        "terminology_check": {
+          "pass": null,
+          "notes": ""
+        },
+        "foreshadowing_check": {
+          "pass": null,
+          "notes": ""
+        }
+      },
+      "issues": [],
+      "review_notes": ""
+    }
+  ],
+  "consistency_issues": [],
+  "unresolved_plot_threads": []
+}

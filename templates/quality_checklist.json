@@ -1,0 +1,59 @@
+{
+  "checks": [
+    {
+      "id": "word_count",
+      "name": "字数检查",
+      "description": "章节字数在2500-5000之间",
+      "required": true
+    },
+    {
+      "id": "pov_consistency",
+      "name": "视角一致性",
+      "description": "POV视角无越界",
+      "required": true
+    },
+    {
+      "id": "character_consistency",
+      "name": "人物一致性",
+      "description": "人物行为符合设定",
+      "required": true
+    },
+    {
+      "id": "world_rules",
+      "name": "世界规则",
+      "description": "遵守世界观设定",
+      "required": true
+    },
+    {
+      "id": "terminology",
+      "name": "术语检查",
+      "description": "专有名词使用正确",
+      "required": false
+    },
+    {
+      "id": "foreshadowing",
+      "name": "伏笔处理",
+      "description": "伏笔埋设/回收正确",
+      "required": true
+    },
+    {
+      "id": "timeline",
+      "name": "时间线",
+      "description": "时间线无矛盾",
+      "required": true
+    },
+    {
+      "id": "plot_coherence",
+      "name": "剧情连贯",
+      "description": "剧情逻辑连贯",
+      "required": true
+    },
+    {
+      "id": "writing_quality",
+      "name": "写作质量",
+      "description": "开篇、节奏、结尾良好",
+      "required": false
+    }
+  ],
+  "chapter_results": []
+}

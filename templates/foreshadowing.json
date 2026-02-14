@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "id": "f001",
+      "description": "伏笔描述",
+      "type": "major",
+      "plant_chapter": 1,
+      "resolve_chapter": 50,
+      "status": "pending",
+      "planted": false,
+      "resolved": false,
+      "notes": "备注"
+    }
+  ]
+}
